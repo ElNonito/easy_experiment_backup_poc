@@ -1,0 +1,49 @@
+{
+  "title": "Experiment made for the tutorial",
+  "date": "8 jan 2022",
+  "author": "A Martin",
+  "notes": "This is not an experiment, it's a test of the sync between my poc and git hub.",
+  "architecture": {
+    "name": "None",
+    "dropout": false,
+    "regularization": false,
+    "batch_normalization": false,
+    "data_preprocessing":[],
+    "data_agumentation":[]
+  },
+  "optimization": {
+    "algorithm": "",
+    "hyperparameters": {
+    }
+  },
+  "training": {
+    "time": 0,
+    "epochs": 0,
+    "train_val_ratio":0
+  },
+  "evaluation": {
+    "metric": "",
+    "results": {
+      "loss": 0.0,
+      "accuracy": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1_score": 0.0,
+      "auc_roc": 0.0
+    }
+  },
+  "reproducing_experiment": {
+    "dataset_version": "",
+    "dataset": "",
+    "github_link": ""
+  },
+  "hardware_specifications": {
+    "operating_system": "ubuntu",
+    "processor": "?",
+    "memory": "?",
+    "libraries_and_frameworks": [
+    "keras",
+    "tensorf-flow"
+    ]
+  }
+}
