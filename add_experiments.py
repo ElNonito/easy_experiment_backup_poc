@@ -4,9 +4,9 @@ import json
 import subprocess
 
 
-DIRECTORY_PATH='./'
+REPO_PATH='/home/arno/Téléchargements/P5A January work/test command/Write apps/easy_experiment_backup_poc/'
 DATABASE_NAME ="experiments.json"
-DATABASE_PATH = DIRECTORY_PATH+DATABASE_NAME
+DATABASE_PATH = REPO_PATH+DATABASE_NAME
 
 def commit_and_push(dir_path):
     # Change to the directory
@@ -45,7 +45,7 @@ def main():
     if confirm == 'y':
         add_experiment(DATABASE_PATH, args.new_experiment)
         print('Experiment added to the database.')
-        commit_and_push(DIRECTORY_PATH)
+        commit_and_push(REPO_PATH)
 	
     else:
         print('Cancelled.')
